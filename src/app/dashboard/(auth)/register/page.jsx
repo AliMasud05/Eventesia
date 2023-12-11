@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import styles from "./page.module.css";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Image from "next/image";
 
 const Register = () => {
   const [formData, setFormData] = useState({
@@ -65,7 +66,15 @@ const Register = () => {
    
    <div className="w-[500px] mx-auto my-32">
   <div className="content">
-    <img src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp" alt="header-image" className="cld-responsive" />
+        <Image
+          src="https://res.cloudinary.com/debbsefe/image/upload/f_auto,c_fill,dpr_auto,e_grayscale/image_fz7n7w.webp"  
+         width={500}
+         height={500}
+         style={{width:'490px',height:'300px'}}
+          alt="Picture of the author"
+        
+        />
+
     <h1 className="form-title">Register Here</h1>
         <form onSubmit={handleSubmit}>
           <input

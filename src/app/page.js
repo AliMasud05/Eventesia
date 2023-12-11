@@ -1,15 +1,10 @@
 import Gallery from '@/components/Shared/Gallery';
-import Navbar from '@/components/navbar/Navbar'
-import Image from 'next/image';
 import Harmohny from "@/components/Shared/Harmohny";
 import Feature from "@/components/Shared/Feature";
-import AboutPage from "@/components/Shared/About";
 import Hero from '@/components/Shared/Hero';
 import HeroBanner from '@/components/Shared/HeroBanner';
 import Countdown from '@/components/Shared/Countdown';
-import Innerhero from '@/components/Shared/innerhero';
-import Link from 'next/link';
-import { Button } from 'antd';
+import Innerhero from '@/components/Shared/Innerhero';
 import Sponsor from '@/components/Shared/Sponsor';
 
 
