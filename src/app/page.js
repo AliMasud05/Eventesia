@@ -6,6 +6,7 @@ import HeroBanner from '@/components/Shared/HeroBanner';
 import Countdown from '@/components/Shared/Countdown';
 import Innerhero from '@/components/Shared/Innerhero';
 import Sponsor from '@/components/Shared/Sponsor';
+import Start from '@/components/Start/Start';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <Harmohny />
       <Feature />
       <Countdown eventDate={eventDate} />
+      <Start/>
       <Innerhero eventDate={eventDate} />
       <Hero />
       <Gallery />
