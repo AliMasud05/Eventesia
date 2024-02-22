@@ -1,4 +1,4 @@
-// File: D:\level-2\final projects\festive-flair\src\app\layout.js
+// File: D:\level-2\resume-project\Eventesia\src\app\layout.js
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
